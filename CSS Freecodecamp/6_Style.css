@@ -1,0 +1,10 @@
+body{
+    background-image: url(https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/internet/web/rm-spa-web/images/meta/og-image.png);
+    background-position: center;
+}
+
+h1, h2, h3 {
+    color: gold;
+    margin-left: 50px;
+    margin-top: 70px;
+}

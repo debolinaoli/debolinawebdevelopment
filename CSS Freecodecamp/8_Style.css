@@ -1,0 +1,4 @@
+h1, h2, h3{
+    color:darkorange;
+    border-style: solid; /*dotted, groove/doouble, dashed,  ridge, outset, inset, none*/
+}

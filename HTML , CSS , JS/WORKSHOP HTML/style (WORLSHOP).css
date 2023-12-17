@@ -1,0 +1,42 @@
+h3{
+    color: green;
+}
+.h4{
+     color: violet;
+}
+#h5{
+    color: yellow;
+}
+
+.ptag{
+    background-color: yellow;
+    color: red;
+    border: 1 px double blue;
+}
+
+
+.background{
+    background-color: brown;
+    background-image: url('../todolist/marguerite-729510_640.jpg')NO-REPEAT;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.text{
+    font-family: "Times New Roman",Times,serif;
+    font-style: initial;
+    font-display:initial;
+    font-size:larger ;
+    text-transform: lowercase;
+}
+
+.link{
+    text-decoration: none;
+    color:blanchedalmond
+}
+
+.link:visited{color:green}
+
+.link:hover{
+    background-color: burlywood;
+}

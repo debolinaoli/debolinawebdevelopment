@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dcc90e716e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+  <!-- {here we will add the background image} -->
+  <div class="container">
+    <nav>
+        <img src="images/image.6.jpg" alt="logo" height="100px">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="header-text">
+        <p>DATA SCIENTIST IN MAKING</p>
+        <h1>Hi, I am <span style="color: rgba(241, 201, 21, 0.807);">Debolina Chatterjee</span> <br>From Kolkata,West Bengal</h1>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ABOUT US PORTION -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image.7.jfif" height="600px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="color:rgb(241, 233, 220);font-size: 20px"><br>Passionate data enthusiast navigating the realms of code and insights, shaping data landscape.</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span><b>TOOLS AND TECHNOLOGIES</b></span><br> <br>C<br>R<br>Python<br>Microsoft Excel<br>HTML<br>CSS<br>Java Script<br>MySQL</li>
+                    <li><span><b>INDUSTRIAL KNOWLEDGE</b></span><br> <br>Linear Algebra<br>Real Analysis<br>Regression Analysis<br>Multivariate Analysis<br>Quality Control<br>Design Of Experiment</li>
+                
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span><b>Postgraduate(Currently Pursuing) (2023-2025)</b><br></span><br>Christ University<br><b>Course:</b>MSc Statistics Honours</li>
+                    <li><span><b>Undergraduate (2020-2023)</b><br></span><br>Surendranath College(University Of Calcutta)<br><b>Course:</b>BSc Staistics Honours<br>CGPA=7.509</li>
+                    <li><span><b>Higher Secondary (2018-2020)</b><br></span><br>Rahara Bhabanath Institution For Girls<br>Percentage: 81%</li>
+                    <li><span><b></b>Secondary (2017-2018)</b><br></span><br>Rahara Bhabanath Institution For Girls<br>Percentage: 80.5%</li>
+
+                </ul>
+
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ------------SERVICES--------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>STATISTICIAN</h2>
+                <p>Me as a Statistician has a sound understanding of statistical theories and data organization. Not only extract and offer valuable insights from the data clusters, but also help create new methodologies for the engineers to apply.</p>
+                <a href="#"></a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>DATA ANALYST</h2>
+                <p>Me as a Data analyst,responsible for a variety of tasks including visualisation, munging, and processing of massive amounts of data and also have to perform queries on the databases from time to time. One of the most important skills of a data analyst is optimization just because we have to create and modify algorithms that can be used to cull information from some of the biggest databases without corrupting the data.</p>
+                <a href="#"></a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>-
+                <h2>DATA SCIENTIST</h2>
+                <p>Me as a Data scientists have to understand the challenges of business and offer the best solutions using data analysis and data processing. For instance, expected to perform predictive analysis and run a fine-toothed comb through an “unstructured/disorganized” data to offer actionable insights and can also do this by identifying trends and patterns that can help the companies in making better decisions.</p>
+                <a href="#"></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ------------portfolio------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle" style="font-size: 60px">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            
+                <div class="layer"></div>
+                    <h3 style="color:#ff8800;font-size: 30px;">PROJECT</h3>
+                    <p><br>1. WEATHER FORCASTING: <br><br>Predicting temperatures based onrandom variables and classifying them to different categories.</p>
+                    <p><br>2. MONEY MANAGEMENT: <br><br>Calculating students expenditure and provide efficient money management.</p>
+                    <p><br>3. FLIGHT PRICE: <br><br>Exploratory analysis and regression based on flight price in metro cities.</p>
+                    
+                
+                
+            </div>
+
+            <div class="work">
+                
+                <div class="layer"></div>
+                    <h3 style="color:#ff8800;font-size: 30px;">GITHUB LINK</h3>
+                    <p><br>This is my Github Link.</p>
+                    <a href="https://github.com/debolinaoli/MScDSB-MSD171-23122112-DEBOLINA"><i class="fa-solid fa-up-right-from-square"></i></a>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------CONTACT-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>debolinaoli10@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8945513808</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> THANKING YOU <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right ="0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right ="-200px"
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby30Bgrl_Qh_uguSdQ36zMzfQe9BsaL617nx4_zFIPWqliFS0S82wtDa3Xu0RYdfJHBvg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

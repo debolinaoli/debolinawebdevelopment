@@ -1,0 +1,94 @@
+.box{
+    background-color:  red;
+    border: 5px solid black;
+    padding: 10px 5px 5px 10px; 
+    /* top right bottom left */
+    /* same for margin also */ */
+
+}
+
+.box-border{
+    height: 100px;
+    background-color: aqua;
+    padding: 10px;
+     
+}
+
+.display{
+    background-color: bisque;
+    display: inline  ;
+    /* making a block element into inline element using display: inline 
+    image tag is also an inline tag */
+    /* -1 is for bringing the img back and 1 is for bringing the img front */
+    z-index: 1;
+    /* position:absolute */
+}
+
+.display-span{
+    background-color: rgb(200, 196, 255);
+    display: block
+    /* making a inline element into block element using display: block */
+}
+
+.image{
+    position: absolute;
+    left: 0px;
+   top : 0px;
+   z-index : -1
+}
+
+.position{
+    position: relative;
+    background-color: blueviolet;
+    left: 30px;
+    border: 3px solid rgb(135, 222, 163);
+}
+
+.fixed{
+    position:fixed;
+    /* bottom:0; */
+    top:0;
+    right:0;
+    background-color: plum;
+    width: 300;
+    border: 3px solid forestgreen;
+
+}
+.relative{
+    position:relative;
+    width:1000px;
+    height:200px;
+    border: 5px solid slateblue;
+
+}
+
+.absolute{
+    position:absolute;
+    top:80px;
+    right: 10px;
+    left:250px;
+    bottom:80px;
+    width:200px;
+    height:100px;
+    border:5px solid navy;
+
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    padding:5px;
+    background-color:aquamarine ;
+    border: 2px  solid slateblue; 
+
+}
+
+.box1{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    align-items:center;
+    background-color: brown;
+
+}
